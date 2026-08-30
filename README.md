@@ -96,6 +96,7 @@ See3D offers a straightforward, no-frills entry into AI 3D creation.
 | Fast3D    | 300/mo + no login  | Instant access            | GLB, FBX, OBJ, STL     | Quick prototyping         |
 | Heydream AI | Generous free plan | Interactive web 3D        | Web-optimized          | Websites & experiences    |
 | See3D   | 30 on signup       | Simplicity                | Standard 3D            | Beginners & tests         |
+| Luphra | Free printable models | Prompt-to-print STL | STL | 3D printing, physical products |
 
 ### How to Choose the Right Free 3D AI Tool
 - **Need game-ready assets fast?** → Meshy AI.  
@@ -121,6 +122,7 @@ Start exploring today:
 - [Fast3D](https://fast3d.io/)
 - [Hey Dream AI](https://heydream.im/)
 - [See3D](https://see3d.art/)  
+- [Luphra](https://luphra.com/)
 
 Bookmark this guide and revisit as new free tiers launch—AI 3D technology evolves monthly!
 
@@ -132,7 +134,7 @@ Yes—each offers usable free tiers with credits or generations. Limits exist to
 Most allow it (check each tool's terms). CC BY 4.0 is common on free plans.
 
 **Which is best for 3D printing?**  
-Meshy AI and Tripo AI produce watertight meshes ready for slicing.
+Meshy AI, Tripo AI, and [Luphra](https://luphra.com/) produce watertight meshes ready for slicing.
 
 **Do I need a powerful PC?**  
 No—all run in the browser with cloud processing.

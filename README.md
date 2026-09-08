@@ -1,402 +1,187 @@
-# 好用的 AI 3D 生成工具精选：17 款产品、流量排名与使用指南
+# Useful AI 3D generation tools
 
-<!-- LANGUAGES:START -->
+> A project by the [Hey Dream AI](https://heydream.im/) team.
 
-> 本项目来自 [Hey Dream AI](https://heydream.im/) 团队。
-
-[简体中文](README_zh.md) · [English](README_en.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Español](README_es.md) · [Português](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [Bahasa Indonesia](README_id.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md)
+[English](README_en.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Español](README_es.md) · [Português](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [Bahasa Indonesia](README_id.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md)
 
-中文为完整指南，其他语言为包含全部 17 款产品的精简版，涵盖截图、用途、流量口径与使用边界。
+17 tools with screenshots, links and practical uses. This localized concise edition accompanies the complete Chinese guide.
 
-<!-- LANGUAGES:END -->
+[Complete Chinese guide](README_zh.md)
 
-**Best Free & Freemium 3D AI Tools · 2026**
+## Traffic and display order
 
-从文字、照片、草图生成 3D 模型，已经可以用于游戏原型、电商展示、网页交互、动画预演和打印创作。本项目整理 **17 款值得按场景试用的工具**，提供官网截图、产品链接、特点、用途和免费使用边界，其中 **13 款有同月公开流量排名，HeyDream、See3D 按指定展示顺序分别放在第三、第四位**。
+Traffic month: 2026-07. Updated: 2026-09-08. Visits are rounded estimates, not unique users or quality scores. The 13 ranked entries use SeekTool’s secondary traffic estimates; HeyDream and See3D occupy requested display positions 3 and 4, with unverified traffic marked N/A. Spline uses a different provider and Hunyuan3D has no comparable figure; neither is ranked.
 
-> **更新日期：2026-09-08｜流量统计月：2026-07。** 本文是官网资料调研与选型指南，未进行统一提示词下的付费生成实测。流量代表关注度，不代表模型质量；“最好用”取决于你的交付目标。仓库名称保留 Free，但正文明确区分免费额度、免费预览、限时试用和付费产品。
-
-## 导航
+| Display | Traffic rank | Product | Monthly visits |
+| --- | --- | --- | ---: |
+| 1 | 1 | [Meshy](https://www.meshy.ai/) | [25.2M](https://cf-preview.seektool.ai/pt/ranking/categories/ai_3d_model_generator) |
+| 2 | 2 | [Tripo AI](https://www.tripo3d.ai/) | [23.2M](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 3 | — | [HeyDream Image to 3D](https://heydream.im/image-to-3d/) | N/A |
+| 4 | — | [See3D](https://see3d.art/) | N/A |
+| 5 | 3 | [Hyper3D / Rodin](https://hyper3d.ai/) | [6.4M](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 6 | 4 | [3D AI Studio](https://www.3daistudio.com/) | [718.3K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 7 | 5 | [Neural4D](https://www.neural4d.com/) | [443.3K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 8 | 6 | [Sloyd](https://www.sloyd.ai/) | [362.9K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 9 | 7 | [Marble / World Labs](https://www.worldlabs.ai/) | [274.4K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 10 | 8 | [Seele AI](https://www.seeles.ai/) | [229.5K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 11 | 9 | [Zoo Design Studio](https://zoo.dev/) | [228.8K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 12 | 10 | [Fast3D](https://fast3d.io/) | [150.1K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 13 | 11 | [Alpha3D](https://www.alpha3d.io/) | [119.0K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 14 | 12 | [Kaedim](https://www.kaedim3d.com/) | [25.7K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| 15 | 13 | [Masterpiece X / WorldEngen](https://www.masterpiecex.com/) | [16.5K](https://cf-preview.seektool.ai/ranking/categories/text_to_3d) |
+| — | — | [Spline](https://spline.design/ai-generate) | [855.66K](https://www.semrush.com/website/spline.design/overview/) |
+| — | — | [Tencent Hunyuan3D](https://3d.hunyuan.tencent.com/) | N/A |
 
-- [流量排名与统计口径](#traffic)
-- [按使用场景快速选择](#choose)
-- [15 款主要产品：截图与介绍](#products)
-- [补充推荐：Spline、腾讯混元 3D](#more)
-- [3D 到底能做什么](#use-cases)
-- [从生成到交付的操作流程](#workflow)
-- [特点、术语与格式怎么选](#formats)
-- [常见问题](#faq)
-- [来源、截图与维护说明](#sources)
-
-<a id="traffic"></a>
-## 流量排名与统计口径
+## Tools and uses
 
-**展示顺序与流量排名分列：HeyDream、See3D 分别指定放在第三、第四位，其余有数据的产品保持流量降序；这不是覆盖全网所有工具的权威榜单。**
+### 1. Meshy
 
-- **HeyDream 的第三位是指定展示位置，不代表流量第三。** 未核实同月同口径流量；其官网还包含图像、视频等业务，不能用全站流量代替 Image to 3D 功能的访问量。
-- **See3D 的第四位同样是指定展示位置，不代表流量第四。** 未找到可核实的 2026-07 同口径访问量，记为 N/A。
-- 指标为**月访问次数（Visits）估算**，不是独立访客数、注册用户数、生成次数或付费用户数。`M = 百万次`，`K = 千次`。
-- 主榜采用 SeekTool 展示的第三方流量估算。其 Text to 3D 榜明确标注 **Similarweb、数据月 2026-07**；Meshy 数值取其 AI 3D Model Generator 搜索索引结果，并用 Toolify 截至 2026-07 的流量页交叉核对。**属于二次转引，未取得 Similarweb 原始数据导出**，不能视作产品官方统计。
-- 按来源标注的产品域名统计，不把不同域名自行相加；World Labs、Seele、Zoo 等包含官网其他业务流量，无法剥离 3D 生成模块的访问量。来源未逐项披露子域名覆盖规则。
-- 各来源更新时间可能不同：采用页面的 **Data month**，不把页面标题的“8 月榜 / 9 月榜”误当统计月份。数值按来源保留舍入精度。
-- **不混用 Semrush 与上述估算做统一排序**。例如 Semrush 对 Meshy 的同月估算为 13.11M，与转引数据差异较大；Spline 仅找到可核实的 Semrush 同月数据，因此单列参考。腾讯混元 3D 未找到同口径独立流量，记为 N/A，而不是 0。
+[![Meshy](assets/screenshots/meshy.jpg)](https://www.meshy.ai/)
 
-| 展示序号 | 流量排名 | 产品 / 统计域名 | 2026-07 月访问量（估算） | 类型与主要用途 | 免费使用边界 | 依据 |
-| --- | --- | --- | ---: | --- | --- | --- |
-| 1 | 1 | [Meshy](https://www.meshy.ai/) · `meshy.ai` | **25.2M（2520 万）** | 通用模型；游戏道具、打印创意 | 有免费额度；下载与功能依方案 | [T1][T1] / [T1b][T1b] |
-| 2 | 2 | [Tripo AI](https://www.tripo3d.ai/) · `tripo3d.ai` | **23.2M（2320 万）** | 单体模型、拓扑、绑骨 | 有 Free；高级模型与导出需核对 | [T2][T2] |
-| 3（指定位置） | — | [HeyDream Image to 3D](https://heydream.im/image-to-3d/) · `heydream.im/image-to-3d/` | **N/A（未核实）** | 图片转 3D；商品展示、概念草模 | 有免费开始入口；按模型与积分规则使用 | [产品说明](https://heydream.im/image-to-3d/) |
-| 4（指定位置） | — | [See3D](https://see3d.art/) · `see3d.art` | **N/A（未核实）** | 图文转 3D、模型查看；商品与道具草模 | 免费积分；生成和导出权益依模型及套餐 | [产品说明](https://see3d.art/) |
-| 5 | 3 | [Hyper3D / Rodin](https://hyper3d.ai/) · `hyper3d.ai` | **6.4M（640 万）** | 可控模型生成、局部编辑 | 免费预览；确认结果涉及积分 | [T2][T2] |
-| 6 | 4 | [3D AI Studio](https://www.3daistudio.com/) · `3daistudio.com` | **718.3K（71.83 万）** | 多引擎生成与资产处理 | 部分功能可用试用积分 | [T2][T2] |
-| 7 | 5 | [Neural4D](https://www.neural4d.com/home) · `neural4d.com` | **443.3K（44.33 万）** | 图文生成、纹理、角色资产 | 免费试用；免费导出为无纹理网格 | [T2][T2] |
-| 8 | 6 | [Sloyd](https://www.sloyd.ai/) · `sloyd.ai` | **362.9K（36.29 万）** | AI 生成与参数化模板 | Guest 可体验；完整权益看套餐 | [T2][T2] |
-| 9 | 7 | [Marble / World Labs](https://www.worldlabs.ai/) · `worldlabs.ai` | **274.4K（27.44 万）** | 可探索的 3D 世界与场景 | 有 Free；按世界生成积分计量 | [T2][T2] |
-| 10 | 8 | [Seele AI](https://www.seeles.ai/) · `seeles.ai` | **229.5K（22.95 万）** | 3D 资产、游戏与场景创作 | 官网提供免费开始入口 | [T2][T2] |
-| 11 | 9 | [Zoo Design Studio](https://zoo.dev/) · `zoo.dev` | **228.8K（22.88 万）** | 对话式 CAD、可编辑几何 | Zookeeper 提供免费体验入口 | [T2][T2] |
-| 12 | 10 | [Fast3D](https://fast3d.io/) · `fast3d.io` | **150.1K（15.01 万）** | 快速图文转模型 | 可试用；生成档位和下载有限制 | [T2][T2] |
-| 13 | 11 | [Alpha3D](https://www.alpha3d.io/) · `alpha3d.io` | **119.0K（11.90 万）** | 生成、拓扑、UV、绑骨工作流 | 目前主推付费 Tester，不标永久免费 | [T2][T2] |
-| 14 | 12 | [Kaedim](https://www.kaedim3d.com/) · `kaedim3d.com` | **25.7K（2.57 万）** | 面向团队的 3D 资产生产 | 商业服务；未确认长期免费方案 | [T2][T2] |
-| 15 | 13 | [Masterpiece X / WorldEngen](https://masterpiecex.com/) · `masterpiecex.com` | **16.5K（1.65 万）** | 3D 场景编排与制作协作 | 官网提供 7 天试用入口 | [T2][T2] |
+Text or images to models, textures and rigging; useful for game props and printable concept drafts.
 
-原始抄录值、月份、来源链接及未参与排序的记录见 [流量数据](data/traffic.json)。不同用途之间只比较访问热度，不比较“生成质量分数”。
+[Official website](https://www.meshy.ai/)
 
-<a id="choose"></a>
-## 按使用场景快速选择
+### 2. Tripo AI
 
-下列建议根据官网功能与工作流匹配得出，适合确定试用顺序。
+[![Tripo AI](assets/screenshots/tripo.jpg)](https://www.tripo3d.ai/)
 
-| 你的任务 | 建议先试 | 选择理由 | 实际验收重点 |
-| --- | --- | --- | --- |
-| 第一次把照片变成 3D | Meshy、Tripo、Fast3D | 图文入口直接，适合单个物体 | 背面结构、轮廓、能否按需下载 |
-| 商品照片或 AI 参考图转 3D 草模 | HeyDream Image to 3D | 图片生成与 3D 转换集中在同一平台 | 背面结构、实际导出格式、积分消耗 |
-| 独立游戏的武器、家具、怪物 | Tripo、Meshy、Sloyd | 生成、拓扑或模板路线较完整 | 面数、UV、碰撞体、引擎帧率 |
-| 已有概念图，想继续修改模型 | Rodin、3D AI Studio | 局部控制或多引擎处理 | 多视角一致性、编辑成本 |
-| 想比较不同模型引擎 | 3D AI Studio、See3D | 集中使用多个生成模型 | 同一参考图、同等预算下的可用率 |
-| 网页首页的互动 3D | Spline | 生成后继续做交互与嵌入 | 移动端性能、首屏加载、交互反馈 |
-| 整个房间、关卡、世界 | Marble、WorldEngen、Seele | 面向场景或完整体验 | 空间连贯性、可编辑性、导出表示 |
-| 手办、摆件、桌游模型 | Meshy、Tripo、Neural4D | 支持相关模型或打印工作流 | 水密性、壁厚、支撑、尺寸 |
-| 工业零件与可修改尺寸 | Zoo | 使用 CAD/B-rep 几何路线 | 尺寸约束、装配间隙、工程复核 |
-| 团队批量生产并审核资产 | Kaedim、WorldEngen | 面向生产协作与场景流程 | 交付标准、返工机制、预算 |
-| 本地部署、研究与二次开发 | 腾讯 Hunyuan3D 开放模型 | 提供模型代码与推理工作流 | 显存、模型版本、许可证 |
+Image and text generation with mesh and character tools; prototype characters and low-poly game assets.
 
-<a id="products"></a>
-## 15 款主要产品：截图与介绍
+[Official website](https://www.tripo3d.ai/)
 
-**截图拍摄于 2026-09-08，展示官网实际页面及其演示素材，不代表本仓库生成的作品或登录后的完整编辑器。** 点击图片可打开产品网站；图片文件随仓库保存。
+### 3. HeyDream Image to 3D
 
-### 1. Meshy — 通用 AI 3D 创作入口
+[![HeyDream Image to 3D](assets/screenshots/heydream.jpg)](https://heydream.im/image-to-3d/)
 
-[![Meshy 官网：图像上传入口与 3D 模型展示](assets/screenshots/meshy.jpg)](https://www.meshy.ai/)
+Image-to-3D workflow with single/multiple views, AI reference images and preview; make product and design drafts. The observed engine is Tripo 3D H3.1.
 
-- **介绍与特点：** 将文字或参考图转换为模型，并提供纹理、网格处理、绑骨和动画相关工具，适合把概念推进到可继续编辑的资产。
-- **具体用途：** 把一张小怪物设定图变成游戏原型角色；生成桌游道具、摆件或电商展示的初始模型。
-- **建议用法：** 先验证无纹理几何和背面，再做贴图与导出；游戏用途继续检查拓扑，打印用途继续检查可打印性。
-- **免费与限制：** 官方文档列有 Free 方案及每月 100 积分。不同操作、模型和下载权益分别受限，不用积分数直接承诺“每月可完整导出多少个模型”。
-- **链接与依据：** [官网](https://www.meshy.ai/) · [价格与积分说明](https://docs.meshy.ai/en/webapp/pricing)
+[Official website](https://heydream.im/image-to-3d/)
 
-### 2. Tripo AI — 模型生成、网格优化与角色流程
+### 4. See3D
 
-[![Tripo 中文官网：产品示例与图片上传入口](assets/screenshots/tripo.jpg)](https://www.tripo3d.ai/)
+[![See3D](assets/screenshots/see3d.jpg)](https://see3d.art/)
 
-- **介绍与特点：** 支持图片与文字生成，区分高细节模型和 Smart Mesh 路线，并提供纹理、智能分割、绑骨等功能。
-- **具体用途：** 把角色立绘变成动画原型；生成低面数游戏道具；将较大的打印模型拆为部件。
-- **建议用法：** 用高细节路线做外形探索，用合适的网格路线满足实时渲染预算；角色需实际播放动作检查关节变形。
-- **免费与限制：** 有 Free 方案；高级模型、批量操作、导出和商用权益需分别看当前方案，API 积分与 Studio 套餐不能混算。
-- **链接与依据：** [官网](https://www.tripo3d.ai/) · [Studio 定价](https://www.tripo3d.ai/pricing)
+Image/text generation and a browser viewer; explore furniture, toys and game props. The homepage shows Tripo H3.1; free credits may not cover the default task.
 
-### 3. HeyDream Image to 3D — 图片到 3D 的一站式创作入口
+[Official website](https://see3d.art/)
 
-[![HeyDream Image to 3D：图片上传、多视角选项及官方 3D 示例预览](assets/screenshots/heydream.jpg)](https://heydream.im/image-to-3d/)
+### 5. Hyper3D / Rodin
 
-- **介绍与特点：** HeyDream 的图片转 3D 产品可上传照片、商品图或设计参考，提供单图／多视角输入、AI 生成参考图和在线模型预览。本次页面显示 **Tripo 3D H3.1**，属于平台集成的生成能力；HeyDream 与 Spline 是不同产品。
-- **具体用途：** 将商品照片转为展示草模，探索电商互动预览；把设计草图变成可旋转的概念模型，用于团队评审；先生成参考图，再制作营销视觉或游戏道具原型。
-- **建议用法：** 准备背景简洁、轮廓完整的参考图 → 选择模型与单图／多视角模式 → 核对积分和公开设置 → 生成并旋转检查背面、底面 → 按实际开放格式下载，再做编辑与验收。
-- **免费与限制：** 官网提供 Start for Free 入口，并显示生成消耗。本次未登录验证免费额度及完整导出权益，不承诺免费无限生成或下载；具体格式、商业使用条件和成本以所选模型、套餐及下载界面为准。
-- **展示位置与截图：** 按指定顺序列在第三位，流量记为 N/A；截图为公开操作界面与官方示例，不是本项目生成实测。
-- **链接与依据：** [Image to 3D 产品页](https://heydream.im/image-to-3d/) · [价格与积分](https://heydream.im/pricing/) · [官方操作指南](https://heydream.im/blog/detail/Tripo-3D-Guide-How-to-Turn-Images-into-3D-Models-with-HeyDream-AI-6b2071c92aeb/)
+[![Hyper3D / Rodin](assets/screenshots/hyper3d.jpg)](https://hyper3d.ai/)
 
-### 4. See3D — 图文生成与在线模型查看
+Reference-driven modeling with local editing and spatial controls; develop equipment and product shapes.
 
-[![See3D 官网：图片上传、Tripo H3.1 模型选项与生成入口](assets/screenshots/see3d.jpg)](https://see3d.art/)
+[Official website](https://hyper3d.ai/)
 
-- **介绍与特点：** 提供 Image to 3D、Text to 3D 和在线模型查看器；首页当前显示 **Tripo H3.1**，另列 Meshy、Hunyuan3D 等模型入口，具体可用版本以操作界面为准。官网介绍主体识别、网格生成与纹理映射，适合制作可继续编辑的初始资产。
-- **具体用途：** 将商品、沙发或玩具照片转成展示草模；用文字探索游戏道具外形；把设计参考转为可旋转模型，辅助概念评审。交付前仍需检查背面、比例和材质。
-- **建议用法：** 准备轮廓清晰、背景简洁的单体参考图，或输入物体、形状与材质描述 → 选择生成模式和模型 → 核对积分 → 生成后检查几何与纹理 → 按实际提供的格式下载并继续修整。
-- **格式与用途边界：** 在线查看器列有 OBJ、FBX、GLB、STL 等格式；查看器的读取能力不代表生成模块支持这些格式的全部导出。用于打印时另查水密性、壁厚和尺寸；用于游戏时另查面数、UV 和引擎兼容性。
-- **免费与限制：** 官网 Free 栏标注新用户 60 积分、每日签到 20 积分；本次首页默认生成按钮显示 200 积分，因此注册额度不一定足够完成当前默认任务。模型权限、下载、私密生成及商用权益按实际套餐核对，本次未登录或提交生成任务。
-- **展示位置与截图：** 按指定顺序放在第四位，流量记为 N/A；截图为官网公开生成入口。
-- **链接与依据：** [官网](https://see3d.art/) · [图片转 3D](https://see3d.art/image-to-3d/) · [文字转 3D](https://see3d.art/text-to-3d/) · [价格与积分](https://see3d.art/pricing/) · [在线查看器](https://see3d.art/3d-tools/online-viewer/)
+### 6. 3D AI Studio
 
-### 5. Hyper3D / Rodin — 注重参考约束与局部调整
+[![3D AI Studio](assets/screenshots/3daistudio.jpg)](https://www.3daistudio.com/)
 
-[![Hyper3D 官网：Rodin 生成入口和控制选项](assets/screenshots/hyper3d.jpg)](https://hyper3d.ai/)
+A workspace for several engines and asset processing; compare results from the same reference.
 
-- **介绍与特点：** 从图像或文字生成模型，提供多图输入、局部编辑、低面数优化，以及包围盒、体素、点云等空间控制方式。
-- **具体用途：** 依据概念图制作装备、交通工具或产品外观；保留主体结构并调整局部设计。
-- **建议用法：** 对复杂对象提供一致的多视角参考；先核对轮廓与比例，再确认材质和最终输出。
-- **免费与限制：** Free 方案支持确认前生成预览，确认结果及高级能力涉及积分或付费。**免费预览不等于免费交付完整模型。**
-- **链接与依据：** [官网](https://hyper3d.ai/) · [定价](https://hyper3d.ai/pricing?lang=de) · [插件文档](https://docs.hyper3d.ai/en/addons)
+[Official website](https://www.3daistudio.com/)
 
-### 6. 3D AI Studio — 集中比较与使用多种生成模型
+### 7. Neural4D
 
-[![3D AI Studio 官网：文字生成道具展示](assets/screenshots/3daistudio.jpg)](https://www.3daistudio.com/)
+[![Neural4D](assets/screenshots/neural4d.jpg)](https://www.neural4d.com/)
 
-- **介绍与特点：** 聚合 Meshy、Tripo、Rodin 等模型与创作工具，覆盖图文转 3D、纹理和网格处理；它是工作台，不应被误写成全部能力均来自同一个自研模型。
-- **具体用途：** 用一张参考图比较不同引擎；把生成、重贴图与拓扑处理集中在一个项目中完成。
-- **建议用法：** 固定输入和目标面数，记录每个引擎的积分消耗、下载结果和返工时间，再选主力路线。
-- **免费与限制：** 官方提供部分功能试用积分；完整工具、模型权限和更高使用量依方案开放。
-- **链接与依据：** [官网与套餐](https://www.3daistudio.com/) · [官方文档](https://docs.3daistudio.com/)
+Generation, textures and character tools; try educational objects and printable base meshes.
 
-### 7. Neural4D — 图文生成与纹理、角色工具
+[Official website](https://www.neural4d.com/)
 
-[![Neural4D 官网：3D 资产生成入口](assets/screenshots/neural4d.jpg)](https://www.neural4d.com/home)
+### 8. Sloyd
 
-- **介绍与特点：** 从图文参考创建 3D 资产，提供纹理、网格处理和角色相关能力，官网也展示 CAD 方向工具。
-- **具体用途：** 将雕像或玩具概念转换为基础几何；制作教育展示模型；试作游戏角色或 XR 道具。
-- **建议用法：** 先试免费网格，确认细节和底部结构符合用途，再决定是否需要带纹理的输出。
-- **免费与限制：** 官方 FAQ 说明免费用户可下载无纹理网格，带纹理模型与更多权益面向付费方案。首页和定价页的额度表述存在差异，因此不承诺固定免费生成次数。
-- **链接与依据：** [官网及 FAQ](https://www.neural4d.com/home) · [定价](https://www.neural4d.com/pricing)
+[![Sloyd](assets/screenshots/sloyd.jpg)](https://www.sloyd.ai/)
 
-### 8. Sloyd — AI 生成加参数化模板
+AI generation plus adjustable templates; create consistent furniture and prop variants.
 
-[![Sloyd 官网：文字输入与模板模型](assets/screenshots/sloyd.jpg)](https://www.sloyd.ai/)
+[Official website](https://www.sloyd.ai/)
 
-- **介绍与特点：** 同时提供文字生成、图片生成和可调参数的 3D 模板。模板路线适合明确控制形状、比例与同系列变体。
-- **具体用途：** 为游戏批量制作同风格家具、箱子、道具；修改模板尺寸与细节，形成一套场景资产。
-- **建议用法：** 需要稳定变体时先找模板；需要新的视觉创意时使用图文生成。生成后按游戏或打印目标分别验收。
-- **免费与限制：** Guest 可在浏览器中调整模板、使用编辑和纹理工具、导出图片，并限量体验 AI 3D。不要把付费套餐宣传的 Unlimited 理解为所有用户免费无限下载模型。
-- **链接与依据：** [官网](https://www.sloyd.ai/) · [套餐说明](https://www.sloyd.ai/pricing)
+### 9. Marble / World Labs
 
-### 9. Marble / World Labs — 生成可以进入和探索的场景
+[![Marble / World Labs](assets/screenshots/marble.jpg)](https://www.worldlabs.ai/)
 
-[![World Labs 官网：空间智能与 Marble 创作入口](assets/screenshots/marble.jpg)](https://www.worldlabs.ai/)
+Generate explorable worlds from visual or text inputs; review room layouts and level atmosphere.
 
-- **介绍与特点：** Marble 接收文字、图像、视频或全景图，生成可探索的 3D 世界，并支持布局控制、编辑、扩展和组合。
-- **具体用途：** 将室内概念图变成空间预览；探索关卡氛围、镜头路线和沉浸式场景。
-- **建议用法：** 先以空间布局与视角连续性验收，再确认下载结果如何进入目标引擎。可浏览的世界不自动等于可编辑的独立物件资产包。
-- **免费与限制：** 有 Free 方案，生成和编辑消耗积分。主榜统计的是 `worldlabs.ai`，不能解读为 Marble 编辑器的独立活跃用户数。
-- **链接与依据：** [World Labs 官网](https://www.worldlabs.ai/) · [Marble](https://marble.worldlabs.ai/) · [定价](https://marble.worldlabs.ai/pricing)
+[Official website](https://www.worldlabs.ai/)
 
-### 10. Seele AI — 从 3D 资产走向可玩的游戏原型
+### 10. Seele AI
 
-[![Seele 官网：游戏创作 Agent 与场景演示](assets/screenshots/seele.jpg)](https://www.seeles.ai/)
+[![Seele AI](assets/screenshots/seele.jpg)](https://www.seeles.ai/)
 
-- **介绍与特点：** 当前官网主推 SeeleAgent，将 3D 资产、图像、代码和游戏创作放在同一工作区，并展示 3D 资产编辑和游戏生成能力。
-- **具体用途：** 做一个带角色、场景和基础交互的玩法原型；尝试概念图到游戏的创作流程。
-- **建议用法：** 明确玩法、视角和资产要求，逐步搭建；除模型外，还需验证脚本逻辑、碰撞和交互。
-- **免费与限制：** 官网提供免费开始入口，任务按 Koins 等规则计量；不能用免费入口推断无限生成、全部引擎导出或完整商业交付权益。
-- **链接与依据：** [官网](https://www.seeles.ai/) · [计费帮助](https://help.seeles.ai/)
+Asset and game creation in one workspace; prototype scenes, characters and gameplay.
 
-### 11. Zoo Design Studio — 对话式 CAD，而非普通美术网格
+[Official website](https://www.seeles.ai/)
 
-[![Zoo 官网：CAD 与 Zookeeper 入口](assets/screenshots/zoo.jpg)](https://zoo.dev/)
+### 11. Zoo Design Studio
 
-- **介绍与特点：** CAD 软件内集成 Zookeeper 对话式设计助手，支持可编辑 CAD 模型及 B-rep 几何，并可结合参数、代码和传统建模操作。
-- **具体用途：** 探索支架、外壳、机械零件的尺寸与结构方案；通过对话修改设计，再手动完善约束。
-- **建议用法：** 提供单位、尺寸和功能要求，核对模型约束与装配关系。适合工程建模方向，不是生成卡通人物的首选。
-- **免费与限制：** 官网提供 Zookeeper 免费体验入口；后续使用额度和部署方式以其定价页为准。AI 辅助生成不能代替工程验证。
-- **链接与依据：** [官网](https://zoo.dev/) · [Zookeeper](https://zoo.dev/zookeeper) · [定价](https://zoo.dev/zoo-pricing)
+[![Zoo Design Studio](assets/screenshots/zoo.jpg)](https://zoo.dev/)
 
-### 12. Fast3D — 快速尝试图文生成
+Conversational CAD with editable geometry; explore brackets, enclosures and dimensions.
 
-[![Fast3D 官网：文字与图片生成控件](assets/screenshots/fast3d.jpg)](https://fast3d.io/)
+[Official website](https://zoo.dev/)
 
-- **介绍与特点：** 提供文字、单图和多图输入，以及网格精度和纹理选项；官网列有 GLB/glTF、FBX、OBJ/MTL、STL 输出。
-- **具体用途：** 快速把简单创意变成可旋转的物体；试作摆件、游戏占位道具或 AR 展示模型。
-- **建议用法：** 从单一主体和较低精度开始，确认结构后再提高精度或添加 PBR 纹理。
-- **免费与限制：** 官网称可免费开始、无需登录进入体验，但实际页面显示更多选项需登录。生成精度、纹理和下载各有条件，不承诺“完全免登录免费导出”。
-- **链接与依据：** [官网、FAQ 与套餐入口](https://fast3d.io/)
+### 12. Fast3D
 
-### 13. Alpha3D — 生成到导出的资产处理流程
+[![Fast3D](assets/screenshots/fast3d.jpg)](https://fast3d.io/)
 
-[![Alpha3D 官网：模型生成及后处理工作台展示](assets/screenshots/alpha3d.jpg)](https://www.alpha3d.io/)
+Quick text/image modeling; draft simple props, ornaments and AR objects.
 
-- **介绍与特点：** 当前官网展示图文与多视角生成、拓扑优化、UV、纹理、部件拆分和绑骨，并可将操作连接为工作流。
-- **具体用途：** 对重复生产的游戏资产建立处理步骤；为一批模型统一面数、贴图和输出格式。
-- **建议用法：** 先测试一件完整资产，记录生成、后处理、格式转换的总消耗，再扩展到批量制作。
-- **免费与限制：** 本次官网主推 **€5/月 Tester**，不沿用旧文章“前 50 个模型免费”的说法。模型生成与后处理可能分别扣费。
-- **链接与依据：** [官网与当前套餐入口](https://www.alpha3d.io/)
+[Official website](https://fast3d.io/)
 
-### 14. Kaedim — 面向工作室和品牌的 3D 生产
+### 13. Alpha3D
 
-[![Kaedim 官网：产品设计与资产评审示例](assets/screenshots/kaedim.jpg)](https://www.kaedim3d.com/)
+[![Alpha3D](assets/screenshots/alpha3d.jpg)](https://www.alpha3d.io/)
 
-- **介绍与特点：** 将草图、参考图包、产品照片和创意要求转成可检查、标注并进入后续制作的 3D 资产，重点在团队生产与评审流程。
-- **具体用途：** 工作室补充游戏资产；品牌把产品概念转成评审模型；在正式 CAD 前讨论外形、体积与比例。
-- **建议用法：** 先约定面数、纹理、格式和质量验收要求，再评估交付与修改流程是否适合团队。
-- **免费与限制：** 官网以商业生产服务为主，本次未确认长期免费方案。适合有交付需求和预算的团队，不应包装为免费生成器。
-- **链接与依据：** [官网与解决方案](https://www.kaedim3d.com/)
+Generation and asset processing workflows; standardize meshes, UVs and exports.
 
-### 15. Masterpiece X / WorldEngen — 场景编排与 3D 制作协作
+[Official website](https://www.alpha3d.io/)
 
-[![Masterpiece X 官网：WorldEngen 产品和场景展示](assets/screenshots/masterpiece.jpg)](https://masterpiecex.com/)
+### 14. Kaedim
 
-- **介绍与特点：** 现官网主推 WorldEngen，把概念图、风格参考、灰盒、资产和场景放进制作流程，并对接 Blender、Unity、Unreal。
-- **具体用途：** 给游戏关卡布景；为影视预演搭建环境；将多件生成资产组织成完整场景。
-- **建议用法：** 先规划布局和镜头，再按区域生成、摆放和调整资产。它侧重场景工作流，不只是单个模型生成按钮。
-- **免费与限制：** 官网提供 7 天试用入口，需要桌面应用工作流；旧 Web Generator 已标记为 **Legacy**，不要继续套用旧版免费额度。
-- **链接与依据：** [官网与试用入口](https://masterpiecex.com/)
+[![Kaedim](assets/screenshots/kaedim.jpg)](https://www.kaedim3d.com/)
 
-<a id="more"></a>
-## 补充推荐：不同口径或缺少独立流量
+Team-oriented asset production; organize requirements and review batches of game assets.
 
-这两款同样属于本次精选，但不与主榜强行混排。
+[Official website](https://www.kaedim3d.com/)
 
-### Spline — 生成之后继续做网页交互
+### 15. Masterpiece X / WorldEngen
 
-[![Spline AI 3D Generation 页面：生成输入框和模型示例](assets/screenshots/spline.jpg)](https://spline.design/ai-generate)
+[![Masterpiece X / WorldEngen](assets/screenshots/masterpiece.jpg)](https://www.masterpiecex.com/)
 
-- **介绍与特点：** AI 3D Generation 可从文字或图片选择候选外观并生成带纹理模型，随后进入 Spline 编辑，添加状态、事件与交互。
-- **具体用途：** 官网首页的可旋转产品、响应鼠标的 3D 图标、交互式品牌展示或产品原型。
-- **建议用法：** 生成后把交互与动画做好，再检查移动端体积、帧率和网页加载速度。
-- **免费与限制：** 编辑器与 AI 额度权益要分别核对，AI 功能使用工作区积分；不能把“编辑器有免费入口”等同于 AI 无限免费。
-- **流量参考：** Semrush，2026-07，`spline.design` **855.66K（85.566 万次）**。来源不同且含编辑器其他业务，因此不插入主榜。[查看流量来源][T3]
-- **链接与依据：** [AI 生成页](https://spline.design/ai-generate) · [功能文档](https://docs.spline.design/) · [价格与 AI 额度](https://docs.spline.design/account/pricing)
+Scene composition and collaboration; assemble environments and plan production.
 
-### 腾讯混元 3D / Hunyuan3D — 中文在线入口与开放模型路线
+[Official website](https://www.masterpiecex.com/)
 
-[![腾讯混元 3D 官网的公开登录入口，非工作台截图](assets/screenshots/hunyuan3d.jpg)](https://3d.hunyuan.tencent.com/)
+### 16. Spline
 
-- **介绍与特点：** 腾讯提供在线 3D 创作入口及 Hunyuan3D 开放模型项目。以 Hunyuan3D-2 为例，几何生成与纹理合成可以组成图像到带纹理模型的工作流。
-- **具体用途：** 中文用户在线尝试 3D 创作；开发者自建生成流程、批处理参考图或研究模型推理。
-- **建议用法：** 在线体验走官网；本地部署按具体仓库 README 选择版本和硬件。不要把某个开放版本的能力、免费额度当成在线产品承诺。
-- **免费与限制：** 在线额度本次未在登录前核实；本地部署需要硬件或算力费用，并按所选代码和模型权重的许可证使用。开放权重不等于任意用途均免费。
-- **流量：** N/A。未找到同月同口径的独立产品访问量，不使用 `tencent.com` 或 GitHub 全站流量代替。
-- **截图说明：** 当前公开官网先进入登录页，因此展示真实登录入口，不将其标成编辑器实测。
-- **链接与依据：** [在线产品](https://3d.hunyuan.tencent.com/) · [Hunyuan3D-2 官方项目与演示](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)
+[![Spline](assets/screenshots/spline.jpg)](https://spline.design/ai-generate)
 
-<a id="use-cases"></a>
-## 3D 到底能做什么
+Create interactive web scenes and embeds; check mobile performance and loading.
 
-AI 3D 的价值通常是缩短“想法到第一版资产”的距离。下面是可执行的用途，不是对生成结果自动达到生产标准的保证。
+[Official website](https://spline.design/ai-generate)
 
-| 场景 | 输入例子 | 具体产出与用途 | 后续必须处理的事 |
-| --- | --- | --- | --- |
-| 游戏开发 | 武器概念图、怪物立绘、家具照片 | 可放入关卡的道具、角色原型、环境装饰；先测试玩法和比例 | 重拓扑、LOD、UV、碰撞体、引擎性能 |
-| 电商展示 | 鞋、包、灯具的多角度照片 | 可旋转商品展示、AR 试摆、营销渲染图 | 校正比例与材质；核验颜色、文字和 Logo，避免误导商品展示 |
-| 3D 打印 | 宠物照片、原创玩具草图 | 摆件、桌游棋子、纪念模型、外形原型 | 水密性、壁厚、非流形、支撑、尺寸、切片预览 |
-| 动画与影视 | 角色设定、分镜草图 | 预演角色、镜头道具、场景占位资产 | 绑骨、权重、关节形变、材质与镜头检查 |
-| Web / App | 图标草图、品牌元素、产品图 | 可互动 3D 首页、加载动画、功能演示 | 资源压缩、触屏适配、弱设备性能、无障碍替代内容 |
-| VR / AR / XR | 教具图片、道具设定、空间参考图 | 虚拟展陈、空间教学、产品试摆、沉浸式关卡 | 比例、碰撞、交互边界和帧率 |
-| 建筑与室内 | 家具照片、风格参考、房间概念图 | 风格讨论、软装草模、空间氛围预览 | 真实尺寸、结构和布局需在专业工具中确认；不能当施工图 |
-| 工业设计 | 尺寸要求、外壳草图、零件约束 | 外形评审样机；CAD 工具可辅助构建可编辑几何 | 公差、装配、材料和制造验证；美术网格不能替代工程设计 |
-| 教育与文化展示 | 历史器物图片、科学结构示意 | 可旋转教学模型、虚拟展品、空间理解练习 | 由领域人员核对准确性；生成补全不等于真实复原 |
+### 17. Tencent Hunyuan3D
 
-<a id="workflow"></a>
-## 从生成到交付的操作流程
+[![Tencent Hunyuan3D](assets/screenshots/hunyuan3d.jpg)](https://3d.hunyuan.tencent.com/)
 
-1. **先确定输出目标。** 游戏资产要面数和动画；打印要实体几何；网页要加载速度；工业设计要尺寸与约束。目标不同，选工具也不同。
-2. **准备参考。** 尽量选择单一主体、轮廓完整、背景简洁的图。多视角必须是同一个物体、同一设计，避免正面和背面互相矛盾。
-3. **生成粗版。** 先看几何，不急于购买最高精度。旋转检查背面、底面、手指、薄片、孔洞和物件连接处。
-4. **选择合格候选后再精修。** 补纹理、降面、分件或绑骨。不要把“4K 贴图”当成几何细节真的增加。
-5. **导出到目标软件验收。** 在 Blender 或目标引擎检查尺度、法线、贴图；打印则进入切片器检查分层和支撑。
-6. **记录实际成本。** 把失败重试、贴图、转换、导出与人工修补一起计入，而非只比较一次生成的价格。
+Open models and inference workflows; research, local deployment and customization.
 
-### 可以直接尝试的提示词
+[Official website](https://3d.hunyuan.tencent.com/)
 
-**游戏道具：**
+## Workflow
 
-> 一个独立的低多边形中世纪木箱，铁质包角，闭合箱盖，轮廓清楚，适合俯视角游戏，不带地面和背景。
+Define the output: game, product preview, animation or printing. Prepare a clear reference or describe the object, shape and material. Generate a draft, inspect every side, repair geometry and textures, then export and test in the target software.
 
-**打印摆件：**
+## Free access and delivery
 
-> 一只坐在圆形底座上的原创卡通小狐狸，整体造型圆润，四肢与身体相连，避免悬空细线和很薄的耳尖，不带场景。
+Free credits, previews and trials have different limits. Check the selected model, download formats and commercial rights. A viewer’s supported input formats do not guarantee matching exports. Games need suitable topology and UVs; printing needs watertight geometry, wall thickness and dimensions. Screenshots show public pages and official demos, not a controlled generation benchmark.
 
-**工程 CAD：**
+## Sources and maintenance
 
-> 使用毫米单位，创建一个 L 形支架，两个板面各长 60 毫米、宽 30 毫米、厚 4 毫米；先显示主要尺寸约束，再添加安装孔，便于后续修改。
+[data/traffic.json](data/traffic.json) · [data/screenshots.json](data/screenshots.json)
 
-提示词是设计意图，不是约束必然被执行的保证。尤其是面数、壁厚和毫米尺寸，必须在输出中实际测量。
+[Complete Chinese guide](README_zh.md#sources)
 
-### 如何公平比较两款工具
-
-使用同一张参考图或同一任务要求，至少覆盖**硬表面道具、角色、薄结构物体**三类。每次记录模型版本、生成参数、时间、总费用，以及导出后需要的人工修补时间。只比较旋转预览的观感，无法判断模型能否用于游戏、动画或打印。
-
-<a id="formats"></a>
-## 特点、术语与格式怎么选
-
-### 常见特点的实际意义
-
-| 术语 / 能力 | 解决什么问题 | 不代表什么 |
-| --- | --- | --- |
-| Text to 3D | 从文字快速探索外形 | 不能保证精确尺寸或复杂装配 |
-| Image to 3D | 保留参考图的视觉方向 | 看不见的背面仍可能是推测 |
-| Multi-view | 用多个视角约束结构 | 不等于测量级扫描精度 |
-| PBR 纹理 | 用颜色、粗糙度、金属度、法线等贴图表达材质 | 贴图分辨率高不等于模型结构好 |
-| 重拓扑 / Remesh | 调整表面网格分布与复杂度 | 自动四边面不等于所有关节都能自然变形 |
-| Rigging / 绑骨 | 让模型可受骨骼驱动 | 仍需检查权重、穿插和动作效果 |
-| Gaussian Splatting | 用许多空间高斯表示视图与场景外观 | 不能直接当成常规水密打印网格 |
-| 参数化 CAD / B-rep | 表达曲面、实体和可修改的设计关系 | 不自动完成工程认证或制造验证 |
-
-### 交付格式
-
-| 格式 | 更适合 | 使用提醒 |
-| --- | --- | --- |
-| GLB / glTF | 网页、实时预览、部分 AR 与引擎流程 | GLB 便于打包；仍需检查贴图与扩展兼容性 |
-| FBX | 带骨骼或动画的 DCC / 游戏引擎交换 | 不同软件的坐标轴、单位与材质支持可能不同 |
-| OBJ + MTL + 贴图 | 静态网格与常规建模交换 | 一并保存关联文件；通常不用于骨骼动画交付 |
-| STL | 单色 3D 打印几何 | 通常不携带材质；必须确认单位、尺寸与封闭性 |
-| 3MF | 支持该格式的打印工作流 | 可承载更多打印相关信息；以生成器和切片器支持为准 |
-| USD / USDZ | 场景交换、支持的 AR / DCC 工作流 | 具体支持依产品与导出路径而定 |
-| STEP 等 CAD 格式 | CAD 软件之间交换实体或曲面 | 普通网格生成器未必提供；不能把 OBJ 改后缀当 STEP |
-
-这些是通用格式指南，不表示每款产品都支持全部格式。
-
-<a id="faq"></a>
-## 常见问题
-
-**这些工具全部永久免费吗？**
-
-不是。Meshy、Tripo、Neural4D 等有免费入口，但额度、下载、纹理或模型权限可能受限；Rodin 的免费预览与确认结果分开；Alpha3D、Kaedim 等需要按商业产品评估。每款介绍都注明了本次能核实的边界。
-
-**流量第一就一定生成最好吗？**
-
-不是。流量会受到营销、免费活动、产品覆盖面和统计模型影响。应该按自己的参考图、目标格式、可用率和修补成本选。
-
-**有 STL 就能直接打印吗？**
-
-不一定。STL 只是文件格式，还要检查封闭性、壁厚、尺寸和支撑。即使官网宣传 print-ready，也应先查看切片结果。
-
-**能否直接用于商业项目？**
-
-需要核对具体套餐的输出许可、参考素材权利及使用限制。免费预览、模型下载、私有生成和商用授权是不同权益，不能相互替代；本文不把营销页“可商用”扩展为所有方案的保证。
-
-**为什么没有把所有知名设计平台都塞进榜单？**
-
-本次优先收录能生成 3D 模型、场景或可编辑 CAD 的产品。不用纯 2D 的“3D 风格图片”、模型素材商城或综合平台全站流量凑数。行业工具持续变化，本项目也不声称穷尽全网。
-
-<a id="sources"></a>
-## 来源、截图与维护说明
-
-### 流量来源
-
-- **T1：** [SeekTool — AI 3D Model Generator 分类榜（搜索索引）][T1]，Meshy 25.2M。该页面本次直接抓取未成功，数值同时由下一条来源核对，证据限制保留在数据文件中。
-- **T1b：** [Toolify — Tripo 与 Meshy 流量对比][T1b]，页面截至 2026-07 的月访问量为 23.2M / 25.2M；只用于交叉核对流量，不引用其可能过时的套餐数据。
-- **T2：** [SeekTool — Text to 3D 分类榜][T2]，明确标注 Similarweb 估算和 Data month 2026-07，主榜其余数据来自此页。
-- **T3：** [Semrush — Spline 2026 年 7 月流量][T3]，All Devices，855.66K。
-- **T4：** [Semrush — Meshy 2026 年 7 月流量][T4]，13.11M；只作为不同估算系统存在差异的示例，不参与主榜混排。
-
-### 截图与内容依据
-
-每款产品介绍中的官网、帮助文档、定价页是其功能和免费边界的依据。未注明为实测的数据均为官网描述的整理；用途、试用顺序和验收建议是本项目的编辑判断。
-
-- 截图保存在 [assets/screenshots](assets/screenshots/)，可以随仓库离线查看，不依赖外部截图代理或热链。
-- [截图清单](data/screenshots.json) 记录来源 URL、实际页面、拍摄时间、图片尺寸和展示类型。
-- 多数图片为 1440 × 1000 的官网首屏；Tripo、Zoo、HeyDream 与 See3D 通过正常浏览器截图。腾讯混元仅展示公开登录入口。
-- 页面中的模型、商标和演示作品归各权利人所有。仓库的代码许可证不替这些第三方素材授予额外使用权。
-- [截图脚本](scripts/capture-screenshots.cjs) 提供批量采集基础流程；需要 Node.js、Playwright 和 Chrome。运行后必须人工检查登录页、弹窗、加载失败和网站验证，不能直接把失败截图当产品截图。
-
-### 更新规则
-
-多语言版本参考 [awesome_codex_skills](https://github.com/flaqai/awesome_codex_skills) 的语言范围与独立 README 文件组织方式，支持简体中文、繁体中文、英语、日语、韩语、德语、法语、西班牙语、葡萄牙语、意大利语、俄语、阿拉伯语、印尼语、泰语和越南语。中文保留完整指南；其他语言提供明确标注的精简版，均包含全部产品与截图。编辑 [翻译内容](data/locales.json) 后运行 `python3 scripts/build-readmes.py`，同步生成语言页面；`README_zh.md` 与本页保持一致。更新产品时需同步翻译内容，流量与截图统一读取现有数据文件。
-
-新增产品时补全：**官方链接 → 功能依据 → 免费边界 → 截图及日期 → 流量月份、指标与来源**。只将同月、相同来源体系的估算并入主榜；缺失值用 N/A。指定展示位置需单独标注，不能改写流量名次。截图和流量可以在不同日期更新，但必须分别注明，避免把当前产品页面当成历史流量证据。
-
-本次修正了旧版将 Hey Dream 与 Spline 混写、See3D 与其他域名混用，以及“全部永久免费”“直接生产可用”“必然可打印”等缺乏支持的说法。
-
-[T1]: https://cf-preview.seektool.ai/pt/ranking/categories/ai_3d_model_generator
-[T1b]: https://www.toolify.ai/es/compare/tripo-ai-vs-meshy
-[T2]: https://cf-preview.seektool.ai/ranking/categories/text_to_3d
-[T3]: https://www.semrush.com/website/spline.design/overview/
-[T4]: https://www.semrush.com/website/meshy.ai/overview/
+[data/locales.json](data/locales.json) · [scripts/build-readmes.py](scripts/build-readmes.py)

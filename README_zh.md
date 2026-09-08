@@ -4,7 +4,7 @@
 
 > 本项目来自 [Hey Dream AI](https://heydream.im/) 团队。
 
-[简体中文](README_zh.md) · [English](README_en.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Español](README_es.md) · [Português](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [Bahasa Indonesia](README_id.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md)
+[English](README_en.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Español](README_es.md) · [Português](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [Bahasa Indonesia](README_id.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md)
 
 中文为完整指南，其他语言为包含全部 17 款产品的精简版，涵盖截图、用途、流量口径与使用边界。
 
@@ -389,7 +389,7 @@ AI 3D 的价值通常是缩短“想法到第一版资产”的距离。下面�
 
 ### 更新规则
 
-多语言版本参考 [awesome_codex_skills](https://github.com/flaqai/awesome_codex_skills) 的语言范围与独立 README 文件组织方式，支持简体中文、繁体中文、英语、日语、韩语、德语、法语、西班牙语、葡萄牙语、意大利语、俄语、阿拉伯语、印尼语、泰语和越南语。中文保留完整指南；其他语言提供明确标注的精简版，均包含全部产品与截图。编辑 [翻译内容](data/locales.json) 后运行 `python3 scripts/build-readmes.py`，同步生成语言页面；`README_zh.md` 与本页保持一致。更新产品时需同步翻译内容，流量与截图统一读取现有数据文件。
+多语言版本参考 [awesome_codex_skills](https://github.com/flaqai/awesome_codex_skills) 的语言范围与独立 README 文件组织方式，支持简体中文、繁体中文、英语、日语、韩语、德语、法语、西班牙语、葡萄牙语、意大利语、俄语、阿拉伯语、印尼语、泰语和越南语。中文保留完整指南；其他语言提供明确标注的精简版，均包含全部产品与截图。编辑 [翻译内容](data/locales.json) 后运行 `python3 scripts/build-readmes.py`，同步生成语言页面；默认首页 `README.md` 与 `README_en.md` 保持一致；本文件 `README_zh.md` 为中文完整指南的编辑源。更新产品时需同步翻译内容，流量与截图统一读取现有数据文件。
 
 新增产品时补全：**官方链接 → 功能依据 → 免费边界 → 截图及日期 → 流量月份、指标与来源**。只将同月、相同来源体系的估算并入主榜；缺失值用 N/A。指定展示位置需单独标注，不能改写流量名次。截图和流量可以在不同日期更新，但必须分别注明，避免把当前产品页面当成历史流量证据。
 

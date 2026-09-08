@@ -2,7 +2,7 @@
 
 > [Hey Dream AI](https://heydream.im/) チームによるプロジェクトです。
 
-[简体中文](README_zh.md) · [English](README_en.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Español](README_es.md) · [Português](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [Bahasa Indonesia](README_id.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md)
+[English](README_en.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Español](README_es.md) · [Português](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [Bahasa Indonesia](README_id.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md)
 
 17 製品の画像、リンク、用途を紹介する日本語の要約版です。詳しいガイドは中国語版をご覧ください。
 

@@ -2,7 +2,7 @@
 
 > Dự án của đội ngũ [Hey Dream AI](https://heydream.im/).
 
-[简体中文](README_zh.md) · [English](README_en.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Español](README_es.md) · [Português](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [Bahasa Indonesia](README_id.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md)
+[English](README_en.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Deutsch](README_de.md) · [Français](README_fr.md) · [Español](README_es.md) · [Português](README_pt.md) · [Italiano](README_it.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [Bahasa Indonesia](README_id.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md)
 
 17 sản phẩm kèm ảnh chụp, liên kết và ứng dụng. Đây là bản tiếng Việt rút gọn; hướng dẫn đầy đủ có bằng tiếng Trung.
 

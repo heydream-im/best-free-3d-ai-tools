@@ -54,6 +54,24 @@
     "note": "Public controls and vendor-provided rotating example; no generation submitted"
   },
   {
+    "id": "see3d",
+    "requested_url": "https://see3d.art/",
+    "final_url": "https://see3d.art/",
+    "title": "Free AI 3D Creation with See 3D AI(see3d.art) | Fast 3D AI Tools",
+    "http_status": null,
+    "file": "assets/screenshots/see3d.jpg",
+    "captured_at": "2026-09-08T09:02:42.023863+00:00",
+    "viewport": {
+      "width": 1920,
+      "height": 881
+    },
+    "reviewed": true,
+    "capture_method": "CUA, normal Chrome browser",
+    "content_type": "public_ai_generation_page",
+    "image_format": "JPEG",
+    "note": "Public homepage controls; no generation submitted"
+  },
+  {
     "id": "meshy",
     "requested_url": "https://www.meshy.ai/",
     "final_url": "https://www.meshy.ai/",

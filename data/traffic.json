@@ -23,7 +23,7 @@
       "source_url": "https://www.semrush.com/website/meshy.ai/overview/",
       "used_in_ranking": false
     },
-    "display_order": "HeyDream is placed third by user request; display_position is independent of traffic rank. Other ranked records retain descending traffic order."
+    "display_order": "HeyDream is placed third and See3D fourth by user request; display_position is independent of traffic rank. Other ranked records retain descending traffic order."
   },
   "products": [
     {
@@ -78,6 +78,25 @@
       "verified_on": "2026-09-08"
     },
     {
+      "rank": null,
+      "display_position": 4,
+      "id": "see3d",
+      "name": "See3D",
+      "domain": "see3d.art",
+      "product_url": "https://see3d.art/",
+      "month": null,
+      "metric": "estimated_monthly_visits",
+      "reported_value": "N/A",
+      "visits_estimate": null,
+      "source_url": null,
+      "excluded_reason": "No verified same-month comparable traffic; displayed fourth by user request, not traffic rank",
+      "product_source_urls": [
+        "https://see3d.art/",
+        "https://see3d.art/pricing/"
+      ],
+      "verified_on": "2026-09-08"
+    },
+    {
       "rank": 3,
       "id": "hyper3d",
       "name": "Hyper3D / Rodin",
@@ -91,7 +110,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 4
+      "display_position": 5
     },
     {
       "rank": 4,
@@ -107,7 +126,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 5
+      "display_position": 6
     },
     {
       "rank": 5,
@@ -123,7 +142,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 6
+      "display_position": 7
     },
     {
       "rank": 6,
@@ -139,7 +158,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 7
+      "display_position": 8
     },
     {
       "rank": 7,
@@ -155,7 +174,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 8
+      "display_position": 9
     },
     {
       "rank": 8,
@@ -171,7 +190,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 9
+      "display_position": 10
     },
     {
       "rank": 9,
@@ -187,7 +206,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 10
+      "display_position": 11
     },
     {
       "rank": 10,
@@ -203,7 +222,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 11
+      "display_position": 12
     },
     {
       "rank": 11,
@@ -219,7 +238,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 12
+      "display_position": 13
     },
     {
       "rank": 12,
@@ -235,7 +254,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 13
+      "display_position": 14
     },
     {
       "rank": 13,
@@ -251,7 +270,7 @@
       "upstream_provider": "Similarweb (reported by SeekTool; not independently audited)",
       "crosscheck_url": null,
       "evidence_status": "Source page read; Data month and table verified",
-      "display_position": 14
+      "display_position": 15
     },
     {
       "rank": null,

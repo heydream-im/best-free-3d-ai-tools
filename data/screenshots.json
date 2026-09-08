@@ -1,0 +1,280 @@
+[
+  {
+    "id": "tripo",
+    "requested_url": "https://www.tripo3d.ai/",
+    "final_url": "https://www.tripo3d.ai/zh",
+    "title": "Tripo AI 3D 模型生成器 | 文本和图片几秒生成 3D 模型",
+    "http_status": null,
+    "file": "assets/screenshots/tripo.jpg",
+    "captured_at": "2026-09-08T08:22:59.147552+00:00",
+    "viewport": {
+      "width": 1920,
+      "height": 881
+    },
+    "reviewed": true,
+    "capture_method": "CUA, normal Chrome browser; recaptured after initial screenshot QA",
+    "content_type": "public_product_homepage",
+    "http_status_note": "Not observed through CUA; product content visually verified",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "hyper3d",
+    "requested_url": "https://hyper3d.ai/",
+    "final_url": "https://hyper3d.ai/",
+    "title": "Hyper3D Rodin - Best AI 3D Model Generator",
+    "http_status": 200,
+    "file": "assets/screenshots/hyper3d.jpg",
+    "captured_at": "2026-09-08T08:20:57.032Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "heydream",
+    "requested_url": "https://heydream.im/image-to-3d/",
+    "final_url": "https://heydream.im/image-to-3d/",
+    "title": "Free Image to 3D AI Generator with Hey Dream AI | 3D AI Tool",
+    "http_status": null,
+    "http_status_note": "Not observed through CUA; product content visually verified",
+    "file": "assets/screenshots/heydream.jpg",
+    "captured_at": "2026-09-08T08:54:46.234579+00:00",
+    "viewport": {
+      "width": 1920,
+      "height": 881
+    },
+    "reviewed": true,
+    "capture_method": "CUA, normal Chrome browser",
+    "content_type": "public_ai_generation_page",
+    "image_format": "JPEG",
+    "note": "Public controls and vendor-provided rotating example; no generation submitted"
+  },
+  {
+    "id": "meshy",
+    "requested_url": "https://www.meshy.ai/",
+    "final_url": "https://www.meshy.ai/",
+    "title": "AI 3D Model Generator: Create 3D from Text & Images | Meshy",
+    "http_status": 200,
+    "file": "assets/screenshots/meshy.jpg",
+    "captured_at": "2026-09-08T08:20:58.625Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "sloyd",
+    "requested_url": "https://www.sloyd.ai/",
+    "final_url": "https://www.sloyd.ai/",
+    "title": "Sloyd · Unlimited AI 3D Creation from Text, Images & Templates",
+    "http_status": 200,
+    "file": "assets/screenshots/sloyd.jpg",
+    "captured_at": "2026-09-08T08:21:07.115Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "3daistudio",
+    "requested_url": "https://www.3daistudio.com/",
+    "final_url": "https://www.3daistudio.com/",
+    "title": "3D AI Studio - Generate 3D Models from Image or Text in Seconds",
+    "http_status": 200,
+    "file": "assets/screenshots/3daistudio.jpg",
+    "captured_at": "2026-09-08T08:21:08.598Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "neural4d",
+    "requested_url": "https://www.neural4d.com/",
+    "final_url": "https://www.neural4d.com/home",
+    "title": "Neural4D - Fast AI 3D Generator | Convert Text & Image to 3D Model",
+    "http_status": 200,
+    "file": "assets/screenshots/neural4d.jpg",
+    "captured_at": "2026-09-08T08:21:12.699Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "marble",
+    "requested_url": "https://www.worldlabs.ai/",
+    "final_url": "https://www.worldlabs.ai/",
+    "title": "World Labs",
+    "http_status": 200,
+    "file": "assets/screenshots/marble.jpg",
+    "captured_at": "2026-09-08T08:21:22.186Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "note": "World Labs company homepage with Marble entry; not Marble editor",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "seele",
+    "requested_url": "https://www.seeles.ai/",
+    "final_url": "https://www.seeles.ai/",
+    "title": "SeeleAgent — AI Agent for Games, Images, Video & 3D | Seele AI",
+    "http_status": 200,
+    "file": "assets/screenshots/seele.jpg",
+    "captured_at": "2026-09-08T08:21:22.716Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "zoo",
+    "requested_url": "https://zoo.dev/",
+    "final_url": "https://zoo.dev/",
+    "title": "CAD Software for Hardware Design | Zoo",
+    "http_status": null,
+    "file": "assets/screenshots/zoo.jpg",
+    "captured_at": "2026-09-08T08:25:24.910188+00:00",
+    "viewport": {
+      "width": 1920,
+      "height": 881
+    },
+    "reviewed": true,
+    "capture_method": "CUA, normal Chrome browser; recaptured after initial screenshot QA",
+    "content_type": "public_product_homepage",
+    "http_status_note": "Not observed through CUA; product content visually verified",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "alpha3d",
+    "requested_url": "https://www.alpha3d.io/",
+    "final_url": "https://www.alpha3d.io/",
+    "title": "Game-Ready 3D. In One Workflow. | Alpha3D",
+    "http_status": 200,
+    "file": "assets/screenshots/alpha3d.jpg",
+    "captured_at": "2026-09-08T08:21:34.994Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "fast3d",
+    "requested_url": "https://fast3d.io/",
+    "final_url": "https://fast3d.io/",
+    "title": "Fast3D - Create 3D Models with AI in Seconds",
+    "http_status": 200,
+    "file": "assets/screenshots/fast3d.jpg",
+    "captured_at": "2026-09-08T08:21:36.437Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "kaedim",
+    "requested_url": "https://www.kaedim3d.com/",
+    "final_url": "https://www.kaedim3d.com/",
+    "title": "Kaedim | AI-Powered 3D Asset Production For Studios & Brands",
+    "http_status": 200,
+    "file": "assets/screenshots/kaedim.jpg",
+    "captured_at": "2026-09-08T08:21:44.913Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "spline",
+    "requested_url": "https://spline.design/ai-generate",
+    "final_url": "https://spline.design/ai-generate",
+    "title": "Spline AI 3D Generation – The power of AI for the 3rd dimension.",
+    "http_status": 200,
+    "file": "assets/screenshots/spline.jpg",
+    "captured_at": "2026-09-08T08:21:46.070Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_ai_generation_page",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "masterpiece",
+    "requested_url": "https://www.masterpiecex.com/",
+    "final_url": "https://masterpiecex.com/",
+    "title": "WorldEngen by Masterpiece X | AI Co-Pilot for 3D Scene Creation",
+    "http_status": 200,
+    "file": "assets/screenshots/masterpiece.jpg",
+    "captured_at": "2026-09-08T08:21:48.149Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_product_homepage",
+    "image_format": "JPEG"
+  },
+  {
+    "id": "hunyuan3d",
+    "requested_url": "https://3d.hunyuan.tencent.com/",
+    "final_url": "https://3d.hunyuan.tencent.com/login?redirect_url=https%3A%2F%2F3d.hunyuan.tencent.com%2F",
+    "title": "腾讯混元3D",
+    "http_status": 200,
+    "file": "assets/screenshots/hunyuan3d.jpg",
+    "captured_at": "2026-09-08T08:21:58.903Z",
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "reviewed": true,
+    "capture_method": "Playwright, fresh signed-out Chrome",
+    "content_type": "public_login_entry",
+    "note": "Login required for workspace; screenshot is not an editor or generated result",
+    "image_format": "JPEG"
+  }
+]
